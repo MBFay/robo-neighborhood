@@ -1,0 +1,18 @@
+.jumbotron {
+  text-align: center;
+}
+
+.input {
+  border: 2px dotted black;
+  text-align: center;
+}
+
+.results-display {
+  display: none;
+  border: 2px dotted darkblue;
+  text-align: center;
+}
+
+.results-display h3 {
+  text-decoration: underline;
+}
