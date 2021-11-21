@@ -23,3 +23,7 @@ Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5]
 Test: "It should return an array with a 0, 'Beep!', 'Boop!', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9,'Beep!' if the number 10 is inputted"
 code: convertToNeighborhood(10);
 Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!"]
+
+Test: "It should return an array with a 0, 'Beep!', 'Boop!', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9,'Beep!', 'Beep!', 'Boop!', 'Won't you be my neighbor?', 'Beep!','Beep!','Beep!','Beep!','Beep!','Beep!','Boop!' if the number 20 is inputted"
+code: convertToNeighborhood(20);
+Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!', "Won't you be my neighbor?", "Beep!', "Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Boop!']

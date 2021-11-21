@@ -24,16 +24,16 @@ $(document).ready(function() {
   $("#input-form").submit(function(event) {
     event.preventDefault();
     const inputNumber = parseInt($("#input-number").val());
-    const resultArray = convertToNeighborhood(inputNumber);
+    const resultArray = convertToNeighborhood(inputNumber).join(", ");
 
     if ($(".results-display").is(":hidden")) {
       $("#results-display-span").text(resultArray);
       $(".results-display").slideToggle();
     } else {
-      $("#results-display-span").slideUp("fast", function() {
+      $("#results-display-span").slideUp("slow", function() {
         $("#results-display-span").text(resultArray);
       });
-      $("#results-display-span").slideDown();
+      $("#results-display-span").slideDown("slow");
     }
   });
 });

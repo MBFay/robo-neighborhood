@@ -16,3 +16,8 @@
 .results-display h3 {
   text-decoration: underline;
 }
+
+#results-display-span {
+  font-size: 24px;
+  text-shadow: 1px 1px 4px;
+}
